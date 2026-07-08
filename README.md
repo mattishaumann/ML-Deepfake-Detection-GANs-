@@ -13,7 +13,7 @@ Can a model tell a real face from a GAN-generated one? Final exam paper for the 
 ## What we found
 
 - The deeper CNN won with **91% test accuracy**
-- ProGAN fakes were nearly always caught; the more modern StyleGAN2/3 images were the hardest to spot
+- ProGAN fakes were nearly always caught; StarGAN was the hardest of the trained-on types
 - On the unseen GAN, accuracy dropped to **59%** - detectors that work on known generators do not automatically generalize to new ones, which is exactly the problem platforms face in the wild
 
 ## Stack
